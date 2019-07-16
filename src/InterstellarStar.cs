@@ -1,6 +1,9 @@
 using System;
 using Kopernicus;
-using Kopernicus.Configuration;
+using Kopernicus.ConfigParser.Attributes;
+using Kopernicus.ConfigParser.BuiltinTypeParsers;
+using Kopernicus.ConfigParser.Enumerations;
+using Kopernicus.Configuration.Parsing;
 
 namespace InterstellarConsortium
 {
@@ -9,14 +12,14 @@ namespace InterstellarConsortium
     public class InterstellarStar : BaseLoader
     {
         [ParserTarget("position", Optional = false)]
-        public Vector3DParser position
+        public Vector3DParser Position
         {
             get { return generatedBody.Get("IC:Position", Vector3d.zero); }
             set { generatedBody.Set("IC:Position", value.Value); }
         }
 
         [ParserTarget("home")]
-        public String homePlanet
+        public String HomePlanet
         {
             get { return generatedBody.Get<String>("IC:HomePlanet", null); }
             set { generatedBody.Set("IC:HomePlanet", value); }
@@ -30,7 +33,7 @@ namespace InterstellarConsortium
         }
 
         [ParserTarget("Orbit")]
-        public ConfigNode orbitPatches
+        public ConfigNode OrbitPatches
         {
             get { return generatedBody.Get<ConfigNode>("IC:OrbitPatches", null); }
             set { generatedBody.Set("IC:OrbitPatches", value); }

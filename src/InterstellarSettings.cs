@@ -1,5 +1,7 @@
 using System;
-using Kopernicus;
+using Kopernicus.ConfigParser;
+using Kopernicus.ConfigParser.Attributes;
+using Kopernicus.ConfigParser.BuiltinTypeParsers;
 
 namespace InterstellarConsortium
 {
