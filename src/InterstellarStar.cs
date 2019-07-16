@@ -12,14 +12,14 @@ namespace InterstellarConsortium
     public class InterstellarStar : BaseLoader
     {
         [ParserTarget("position", Optional = false)]
-        public Vector3DParser Position
+        public Vector3DParser position
         {
             get { return generatedBody.Get("IC:Position", Vector3d.zero); }
             set { generatedBody.Set("IC:Position", value.Value); }
         }
 
         [ParserTarget("home")]
-        public String HomePlanet
+        public String homePlanet
         {
             get { return generatedBody.Get<String>("IC:HomePlanet", null); }
             set { generatedBody.Set("IC:HomePlanet", value); }
@@ -33,7 +33,7 @@ namespace InterstellarConsortium
         }
 
         [ParserTarget("Orbit")]
-        public ConfigNode OrbitPatches
+        public ConfigNode orbitPatches
         {
             get { return generatedBody.Get<ConfigNode>("IC:OrbitPatches", null); }
             set { generatedBody.Set("IC:OrbitPatches", value); }
