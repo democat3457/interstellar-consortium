@@ -124,9 +124,9 @@
       "author": "Gregrox",
       "reserved": true,
       "position": {
-        "x": -13,
-        "y": -8,
-        "z": -0.2
+        "x": -1.3,
+        "y": 0.2,
+        "z": -2.7
       }
     },
     {
@@ -160,9 +160,9 @@
       "bodyClass": "X",
       "soi": 1,
       "position": {
-        "x": -2,
-        "y": 2.4,
-        "z": 3
+        "x": 5.8,
+        "y": 1.5,
+        "z": -1.7
       }
     },
     {
@@ -182,7 +182,7 @@
       "author": "Gameslinx",
       "bodyName": "GPO's Star",
       "bodyClass": "G",
-      "soi": 0.6,
+      "soi": 0.8,
       "position": {
         "x": 4.5,
         "y": 4.5,
@@ -194,7 +194,7 @@
       "author": "Gameslinx",
       "bodyName": "Helios",
       "bodyClass": "G",
-      "soi": 0.8,
+      "soi": 0.6,
       "position": {
         "x": 3.2,
         "y": 3.5,
@@ -223,6 +223,66 @@
         "x": 11.8,
         "y": -11.7,
         "z": 2.5
+      }
+    },
+    {
+      "pack": "Viozic Suns",
+      "author": "",
+      "bodyName": "Lauhel'Saal",
+      "bodyClass": "K",
+      "soi": 0.75,
+      "position": {
+        "x": 10.9,
+        "y": 7,
+        "z": -1.1
+      }
+    },
+    {
+      "pack": "Terras Ignotas",
+      "author": "TI Team",
+      "bodyName": "Hadron",
+      "bodyClass": "N",
+      "soi": 0.75,
+      "position": {
+        "x": 13,
+        "y": 2.2,
+        "z": -1.7
+      }
+    },
+    {
+      "pack": "The Golder System",
+      "author": "GurrenLagann",
+      "bodyName": "Golder",
+      "bodyClass": "??",
+      "soi": 0.8,
+      "position": {
+        "x": 6,
+        "y": 2,
+        "z": 3
+      }
+    },
+    {
+      "pack": "Uncharted Lands",
+      "author": "KillAshley",
+      "bodyName": "Ultima Luth",
+      "bodyClass": "K",
+      "soi": 0.6,
+      "position": {
+        "x": 4.4,
+        "y": 1.1,
+        "z": 3.1
+      }
+    },
+    {
+      "pack": "New Horizons",
+      "author": "KillAshley",
+      "bodyName": "Novus Horizontum",
+      "bodyClass": "G",
+      "soi": 0.8,
+      "position": {
+        "x": -7.3,
+        "y": -3,
+        "z": -5.2
       }
     }
   ]
